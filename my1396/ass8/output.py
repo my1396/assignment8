@@ -1,0 +1,20 @@
+'''
+Created on Nov 10, 2015
+
+@author: ds-ga-1007
+'''
+from calculatereturn import *
+from plotfig import *
+
+def dothetrial(position_list,initial_capital,num_trials):        
+    result_output=open('results.txt','w')
+    for position in position_list:
+        invest_simulation=CalculateSingleDayReturn(position,initial_capital,num_trials)
+        invest_simulation.repeat_ntimes_oneday()
+        cumu_ret=invest_simulation.cumu_ret
+        daily_ret=invest_simulation.daily_ret
+        line="Position = %d, mean = %f, std = %f" % (position,np.mean(cumu_ret),np.std(daily_ret))
+        result_output.write(line)
+        result_output.write('\n')
+        plotfig(position,daily_ret)    
+    result_output.close()

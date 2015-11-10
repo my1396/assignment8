@@ -1,0 +1,25 @@
+'''
+Created on Nov 10, 2015
+
+@author: ds-ga-1007
+'''
+import numpy as np
+import matplotlib
+import matplotlib.pyplot as plt
+
+
+def dothetrial(position_list,initial_capital,num_trials):        
+    result_output=open('results.txt','w')
+    for position in position_list:
+        
+            
+
+
+
+
+
+
+
+
+
+                

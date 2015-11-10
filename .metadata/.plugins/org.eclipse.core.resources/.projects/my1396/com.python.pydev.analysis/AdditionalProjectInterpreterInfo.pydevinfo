@@ -1,0 +1,61 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/ds-ga-1007/Desktop/workspace/assignment8/.metadata/.plugins/org.eclipse.core.resources/.projects/my1396/com.python.pydev.analysis/v2_indexcache
+ass8.assignment8|1447190972000|/home/ds-ga-1007/Desktop/workspace/assignment8/my1396/ass8/assignment8.py
+ass8.calculatereturn|1447186851000|/home/ds-ga-1007/Desktop/workspace/assignment8/my1396/ass8/calculatereturn.py
+ass8.getposition|1447191217000|/home/ds-ga-1007/Desktop/workspace/assignment8/my1396/ass8/getposition.py
+ass8.plotfig|1447189050000|/home/ds-ga-1007/Desktop/workspace/assignment8/my1396/ass8/plotfig.py
+ass8.ex|1447184693000|/home/ds-ga-1007/Desktop/workspace/assignment8/my1396/ass8/ex.py
+ass8.output|1447191167000|/home/ds-ga-1007/Desktop/workspace/assignment8/my1396/ass8/output.py
+ass8.__init__|1447179578000|/home/ds-ga-1007/Desktop/workspace/assignment8/my1396/ass8/__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+12
+12=Coordinate.__init__
+5=ass8.assignment8
+1=ass8.calculatereturn
+6=ass8.plotfig
+4=ass8.getposition
+2=ass8.ex
+7=CalculateSingleDayReturn
+8=Coordinate
+3=ass8.output
+11=CalculateSingleDayReturn.__init__
+9=Coordinate.sed
+10=CalculateSingleDayReturn.repeat_ntimes_oneday
+-- END DICTIONARY
+-- START TREE 1
+16
+!<m|0|
+cal|1|CalculateSingleDayReturn!9@
+coo|1|Coordinate!17@
+cum|1|cumu_ret!27@
+dai|1|daily_ret!27@
+dot|1|dothetrial!26@
+get|2|getposition!34@get_num_trials!34@
+ini|1|initial_capital!43@
+ins|1|instance!19@
+inv|1|invest_simulation!27@
+lin|1|line!27@
+mai|1|main!42@
+num|0|
+plo|1|plotfig!50@
+pos|0|
+res|1|result_output!27@
+-- END TREE
+-- START TREE 2
+13
+!<m|0|
+__i|2|__init__!7&10@__init__!8&18@
+a|1|a!9&19@
+cum|1|cumu_ret!10&11@
+dai|1|daily_ret!10&11@
+num|1|num_trials!11&11@
+out|0|
+pos|2|positions!11&11@position_value!11&11@
+rep|1|repeat_ntimes_oneday!7&10@
+ret|1|return_of_oneday!7&10@
+sed|1|sed!8&18@
+x|1|x!12&19@
+y|1|y!12&19@
+-- END TREE
